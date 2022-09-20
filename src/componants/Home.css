@@ -1,0 +1,38 @@
+.background-color {
+  background-color: beige;
+  height: 100vh;
+  text-align: center;
+  color: black;
+  padding-bottom: 50px;
+}
+
+.accordion {
+  height: "100%";
+  display: flexbox;
+  margin-left: auto;
+  margin-right: auto;
+  width: 750px;
+  padding-top: 35px;
+  padding-bottom: 20px;
+}
+
+.image {
+  padding: 15px;
+  background-color: aliceblue;
+  border-radius: 10px;
+}
+
+.stepper{
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 35px;
+}
+
+.padding-left{
+  padding-left: 15px;
+}
+
+.width{
+  width: 50%
+}

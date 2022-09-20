@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+.background {
+  color: rgb(255, 255, 255);
+  background-color: #191c21;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+}
+
+
+
+.powerBi-container {
+  padding-top: 55px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.chart-background {
+  padding-left: 30px;
+  padding-top: 15px;
+  display: flex;
+  width: 1300px;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  background-color: white;
+  color: rgb(71, 42, 42);
+}
+
+.text-align-center {
+  text-align: center;
+}
+
+.table-container {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  align-items: center;
+}
