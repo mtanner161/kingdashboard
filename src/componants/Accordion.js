@@ -4,6 +4,7 @@ import AccordionSummary from "@mui/material/AccordionSummary";
 import AccordionDetails from "@mui/material/AccordionDetails";
 import Typography from "@mui/material/Typography";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
+import "./Accordion.css";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
 
 const AccordionComp = () => {
@@ -16,7 +17,7 @@ const AccordionComp = () => {
   var finance = "In Development";
 
   var operations = "In Development";
-  var clientRelations = "In development";
+  var clientRelations = "Current Development";
 
   return (
     <div>
@@ -27,10 +28,10 @@ const AccordionComp = () => {
             aria-controls="panel1a-content"
             id="panel1a-header"
           >
-            <Typography>Finance</Typography>
+            <Typography>Client Relations v1</Typography>
           </AccordionSummary>
           <AccordionDetails>
-            <Typography>{finance}</Typography>
+            <Typography>{clientRelations}</Typography>
           </AccordionDetails>
         </Accordion>
         <Accordion>
@@ -39,7 +40,7 @@ const AccordionComp = () => {
             aria-controls="panel2a-content"
             id="panel2a-header"
           >
-            <Typography>Operations</Typography>
+            <Typography>Operations v2</Typography>
           </AccordionSummary>
           <AccordionDetails>
             <Typography>{operations}</Typography>
@@ -51,10 +52,10 @@ const AccordionComp = () => {
             aria-controls="panel3a-content"
             id="panel3a-header"
           >
-            <Typography>Client Relations</Typography>
+            <Typography>Finance v3</Typography>
           </AccordionSummary>
           <AccordionDetails>
-            <Typography>{clientRelations}</Typography>
+            <Typography>{finance}</Typography>
           </AccordionDetails>
         </Accordion>
       </ThemeProvider>

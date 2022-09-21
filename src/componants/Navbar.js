@@ -115,7 +115,7 @@ const ResponsiveAppBar = () => {
                 style={{ textDecoration: "none", color: "white" }}
                 to="/kingdashboard"
               >
-                MSM Model
+                KOP
               </Link>
             </Typography>
             <Box sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }}>
