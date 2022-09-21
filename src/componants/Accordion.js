@@ -13,13 +13,10 @@ const AccordionComp = () => {
     },
   });
 
-  var phaseOne =
-    "Debug and get MATLAB model working, then covert to Python, begin open-source customization";
+  var finance = "In Development";
 
-  var phaseTwo =
-    "Convert to node.js - begin to build frontend - finalize open source version";
-  var phaseThree =
-    "Finish frontend web application, share results and handoff to department";
+  var operations = "In Development";
+  var clientRelations = "In development";
 
   return (
     <div>
@@ -30,10 +27,10 @@ const AccordionComp = () => {
             aria-controls="panel1a-content"
             id="panel1a-header"
           >
-            <Typography>Phase One</Typography>
+            <Typography>Finance</Typography>
           </AccordionSummary>
           <AccordionDetails>
-            <Typography>{phaseOne}</Typography>
+            <Typography>{finance}</Typography>
           </AccordionDetails>
         </Accordion>
         <Accordion>
@@ -42,10 +39,10 @@ const AccordionComp = () => {
             aria-controls="panel2a-content"
             id="panel2a-header"
           >
-            <Typography>Phase Two</Typography>
+            <Typography>Operations</Typography>
           </AccordionSummary>
           <AccordionDetails>
-            <Typography>{phaseTwo}</Typography>
+            <Typography>{operations}</Typography>
           </AccordionDetails>
         </Accordion>
         <Accordion>
@@ -54,10 +51,10 @@ const AccordionComp = () => {
             aria-controls="panel3a-content"
             id="panel3a-header"
           >
-            <Typography>Phase Three</Typography>
+            <Typography>Client Relations</Typography>
           </AccordionSummary>
           <AccordionDetails>
-            <Typography>{phaseThree}</Typography>
+            <Typography>{clientRelations}</Typography>
           </AccordionDetails>
         </Accordion>
       </ThemeProvider>

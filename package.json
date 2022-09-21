@@ -2,7 +2,7 @@
   "name": "msm-web-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://mtanner161.github.io/msmwebapp",
+  "homepage": "https://mtanner161.github.io/kingdashboard",
   "dependencies": {
     "@emotion/react": "^11.8.1",
     "@emotion/styled": "^11.8.1",
@@ -15,7 +15,6 @@
     "@testing-library/react": "^12.1.2",
     "@testing-library/user-event": "^13.5.0",
     "axios": "^0.26.1",
-    "gh-pages": "^3.2.3",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-gist": "^1.2.4",
@@ -51,5 +50,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
   }
 }

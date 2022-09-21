@@ -1,6 +1,7 @@
 import React from "react";
 import "./Home.css";
 import CSM from "./images/csmLarge.png";
+import Accordion from "./Accordion";
 
 const Home = () => {
   return (
@@ -11,6 +12,9 @@ const Home = () => {
       <br></br>
       <h2>Different Modules:</h2>
       <br></br>
+      <div className="accordion">
+        <Accordion />
+      </div>
     </div>
   );
 };
