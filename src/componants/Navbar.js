@@ -14,6 +14,7 @@ import MenuItem from "@mui/material/MenuItem";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
 import { Link } from "react-router-dom";
 import Blaster from "./images/blaster.jpg";
+import IconKing from "./images/kocLogoIcon.png";
 
 const pages = ["Finance", "Operations", "Client Relations"];
 const settings = ["Profile", "Logout"];
@@ -138,7 +139,7 @@ const ResponsiveAppBar = () => {
             <Box sx={{ flexGrow: 0 }}>
               <Tooltip title="Open settings">
                 <IconButton onClick={handleOpenUserMenu} sx={{ p: 0 }}>
-                  <Avatar alt="Remy Sharp" src={Blaster} />
+                  <Avatar alt="Remy Sharp" src={IconKing} />
                 </IconButton>
               </Tooltip>
               <Menu

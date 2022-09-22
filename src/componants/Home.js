@@ -1,14 +1,15 @@
 import React from "react";
 import "./Home.css";
-import CSM from "./images/csmLarge.png";
 import Accordion from "./Accordion";
+import IconLogo from "./images/kocLogoRaw.png";
 
 const Home = () => {
   return (
     <div className="background-color">
       <br></br>
+      <img src={IconLogo} width="750" height="250"></img>
       <br></br>
-      <h1>King Operating Corporation</h1>
+      <br></br>
       <h3>
         Development Web Application desgined to help centralize and deploy key
         finance, operations and client relations applications and reports. IN
