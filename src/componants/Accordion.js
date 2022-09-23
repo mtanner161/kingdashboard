@@ -17,7 +17,8 @@ const AccordionComp = () => {
   var finance = "In Development";
 
   var operations = "In Development";
-  var clientRelations = "Current Development";
+  var clientRelations =
+    "Current Development - Will allow Investor Relations team to preform data-cleaning and uploading process";
 
   return (
     <div>
