@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/kingdashboard/static/css/main.50ac3ba8.css",
-    "main.js": "/kingdashboard/static/js/main.e65af036.js",
+    "main.js": "/kingdashboard/static/js/main.e3eb2ee4.js",
     "static/js/787.83650008.chunk.js": "/kingdashboard/static/js/787.83650008.chunk.js",
     "static/media/kocLogoRaw.png": "/kingdashboard/static/media/kocLogoRaw.b49f47bbd5df5a4bda6b.png",
     "static/media/blaster.jpg": "/kingdashboard/static/media/blaster.9c9da998507855303bf8.jpg",
     "index.html": "/kingdashboard/index.html",
     "main.50ac3ba8.css.map": "/kingdashboard/static/css/main.50ac3ba8.css.map",
-    "main.e65af036.js.map": "/kingdashboard/static/js/main.e65af036.js.map",
+    "main.e3eb2ee4.js.map": "/kingdashboard/static/js/main.e3eb2ee4.js.map",
     "787.83650008.chunk.js.map": "/kingdashboard/static/js/787.83650008.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.50ac3ba8.css",
-    "static/js/main.e65af036.js"
+    "static/js/main.e3eb2ee4.js"
   ]
 }
