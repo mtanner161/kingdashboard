@@ -18,17 +18,30 @@ const Home = () => {
   const fetch = (...args) =>
     import("node-fetch").then(({ default: fetch }) => fetch(...args));
 
-  // api v2
-  const url =
+  // api v2 U.S. Ending Stocks excluding SPR of Crude Oil (Thousand Barrels)
+  const urlEiaEndingStocksExcSpr =
     "https://api.eia.gov/v2/petroleum/stoc/wstk/data?api_key=f8127de985a95b35a603961cfd50cdbd&data[]=value&facets[duoarea][]=NUS&sort[0][column]=period&sort[0][direction]=desc&facets[series][]=WCESTUS1";
+
+  const urlEiaEndingStocksSpr =
+    "https://api.eia.gov/v2/petroleum/stoc/wstk/data?api_key=f8127de985a95b35a603961cfd50cdbd&data[]=value&facets[duoarea][]=NUS&sort[0][column]=period&sort[0][direction]=desc&facets[series][]=WCSSTUS1";
+
+  const urlEiaRefinaryPercentUtilization =
+    "https://api.eia.gov/v2/petroleum/pnp/wiup/data?api_key=f8127de985a95b35a603961cfd50cdbd&data[]=value&facets[duoarea][]=NUS&sort[0][column]=period&sort[0][direction]=desc&facets[series][]=WPULEUS3";
+
+  const urlCrudeOilProduction =
+    "https://api.eia.gov/v2/petroleum/sum/sndw/data?api_key=f8127de985a95b35a603961cfd50cdbd&data[]=value&facets[duoarea][]=NUS&sort[0][column]=period&start=2000-01-01&sort[0][direction]=desc&facets[series][]=WCRFPUS2";
 
   async function getEiaData(eiaUrl) {
     const response = await fetch(eiaUrl);
     return response.json();
   }
 
-  const data = getEiaData(url);
-  console.log(data);
+  const dataEiaEndingStocksExcSpr = getEiaData(urlEiaEndingStocksExcSpr);
+  const dataEiaEndingStocksSpr = getEiaData(urlEiaEndingStocksSpr);
+  const dataEiaRefinaryPercentUtilizationOperated = getEiaData(
+    urlEiaRefinaryPercentUtilization
+  );
+  console.log(dataEiaRefinaryPercentUtilizationOperated);
 
   return (
     <div className="background-color">

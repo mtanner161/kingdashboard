@@ -5,11 +5,16 @@ const Finance = () => {
     <div>
       <h1>Finance</h1>
       <iframe
-        width="900px"
-        height="750px"
-        frameborder="0"
-        src="https://wpi.wolfepakcloud.com/app/main#/dashboards/627e6e5bde810a0037ccfbdc?embed=true"
-      ></iframe>
+        width="640px"
+        height="480px"
+        src="https://forms.office.com/Pages/ResponsePage.aspx?id=cjwDEEjzZ0-J_jhx77qEwnV7SbGEoO9NkspT1ZTRj6RURFMzOTZHNUJHOUdTRDFNVlpMVjEyREpOVC4u&embed=true"
+        allowfullscreen
+        webkitallowfullscreen
+        mozallowfullscreen
+        msallowfullscreen
+      >
+        {" "}
+      </iframe>
     </div>
   );
 };
