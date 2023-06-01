@@ -55,10 +55,7 @@ const ResponsiveAppBar = () => {
               component="div"
               sx={{ mr: 2, display: { xs: "none", md: "flex" } }}
             >
-              <Link
-                style={{ textDecoration: "none", color: "white" }}
-                to="/kingdashboard"
-              >
+              <Link style={{ textDecoration: "none", color: "white" }} to="/">
                 King Operating Corporation
               </Link>
             </Typography>
